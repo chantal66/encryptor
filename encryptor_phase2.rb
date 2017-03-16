@@ -64,5 +64,5 @@ class Encryptor
 end
 
 e = Encryptor.new
-p encrypted = e.encrypt("Hello World!",20)
-p e.decrypt(encrypted, 20)
+p encrypted = e.encrypt("Hello World!",10)
+p e.decrypt(encrypted, 10)
